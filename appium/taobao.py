@@ -31,6 +31,7 @@ driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 # 休眠5秒等待页面加载
 time.sleep(5)
 driver.find_element_by_id("	com.taobao.taobao:id/yes").click()
+time.sleep(5)
 driver.find_element_by_id("	com.taobao.taobao:id/home_searchedit").click()
 driver.find_element_by_id("	com.taobao.taobao:id/search/Edit").click()
 driver.find_element_by_id("	com.taobao.taobao:id/search/Edit").send_keys(u'男装')
