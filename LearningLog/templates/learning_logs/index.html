@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+</head>
+<body>
+{% extends "learning_logs/base.html" %}
+{% block header %}
+<div class="jumbotron">
+    <h1>记录你的学习</h1>
+</div>
+{% endblock header %}
+{% block content %}
+<h2>
+    <a href="{% url 'users:register' %}">登陆你的账号</a>去记录自己的每一份努力和付出！
+</h2>
+{% endblock content%}
+
+</body>
+</html>

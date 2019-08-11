@@ -2,8 +2,291 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc2af2bd-900e-441b-9543-d152b8fe9643" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appium/taobao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API/login_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileChange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/HttpApi/testGetAndPost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/HybridApp/HybridScript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/NativeApp/NativeScript.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/NativeApp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/NativeApp/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/cpustatus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/launchTime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/mem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/meminfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/meminfo.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/power.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/power.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/traffic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/launchTime/traffic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/mooktest/ddttest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/mooktest/mooktest/mooktest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/mooktest/mytestrunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appium/mooktest/unittestdemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic025.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic026.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic027.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic028.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic029.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic030.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic031.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic032.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic033.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic034.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic035.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic036.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic037.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic038.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic039.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic040.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic041.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic042.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic044.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic046.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic047.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic049.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic051.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic052.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic053.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic054.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic055.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic056.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic057.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic058.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic059.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic060.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic061.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic062.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic063.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic064.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic065.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic068.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic069.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic070.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic071.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic072.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic073.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic074.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic075.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic076.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic077.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic078.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic079.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic080.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic081.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic082.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic083.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic084.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic085.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic086.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic087.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic088.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic089.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic090.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic091.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic092.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic093.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic094.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic095.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic096.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic097.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic098.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic099.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmp/output_pic100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gifTopng.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imageToVideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maiyang/FunctionTest/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maiyang/PerformenceTest/cpustatus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maiyang/PerformenceTest/launchTime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maiyang/PerformenceTest/power.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maiyang/PerformenceTest/traffic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_124.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_125.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_126.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_129.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_134.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_138.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_139.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_143.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_149.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/result/output_99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wanyouxizadianshi.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,79 +314,90 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-791581462">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="PNG" value="1" />
-          <entry key="csv" value="6" />
-          <entry key="md" value="1" />
-          <entry key="png" value="4" />
-          <entry key="py" value="18" />
-          <entry key="txt" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Image" value="5" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="1106" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="1106" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium/py.py">
+        <entry file="file://$PROJECT_DIR$/LearningLog/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="24" column="67" lean-forward="true" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appium/taobao.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="276">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding>
-                <element signature="e#16#44#0" expanded="true" />
+                <element signature="e#23#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appium/py1.py">
+        <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/new_topic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/topic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="e#23#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/edit_entry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/topics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -113,14 +407,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>小王医生</find>
+      <find>file</find>
+      <find>cpuvalue</find>
+      <find>{% url 'learning_logs:topic'topic.id% }</find>
+      <find>id</find>
+      <find>Da</find>
+      <find>LOGIN</find>
+      <find>主题</find>
     </findStrings>
+    <replaceStrings>
+      <replace>分类</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,26 +435,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ImageToChar.py" />
-        <option value="$PROJECT_DIR$/py.py" />
-        <option value="$PROJECT_DIR$/HW1/gd.py" />
-        <option value="$PROJECT_DIR$/appium/py1.py" />
+        <option value="$PROJECT_DIR$/API/login_user.py" />
+        <option value="$PROJECT_DIR$/API/get.py" />
+        <option value="$PROJECT_DIR$/gifTopng.py" />
+        <option value="$PROJECT_DIR$/imageToVideo.py" />
+        <option value="$PROJECT_DIR$/FileChange.py" />
+        <option value="$PROJECT_DIR$/rename.py" />
+        <option value="$PROJECT_DIR$/appium/HybridApp/HybridScript.py" />
+        <option value="$PROJECT_DIR$/appium/launchTime/mem.py" />
+        <option value="$PROJECT_DIR$/appium/launchTime/power.py" />
+        <option value="$PROJECT_DIR$/appium/launchTime/cpustatus.py" />
+        <option value="$PROJECT_DIR$/appium/mooktest/ddttest.py" />
+        <option value="$PROJECT_DIR$/appium/mooktest/unittestdemo.py" />
+        <option value="$PROJECT_DIR$/appium/launchTime/launchTime.py" />
+        <option value="$PROJECT_DIR$/maiyang/launchTime/launchTime.py" />
+        <option value="$PROJECT_DIR$/maiyang/launchTime/cpustatus.py" />
+        <option value="$PROJECT_DIR$/maiyang/launchTime/traffic.py" />
+        <option value="$PROJECT_DIR$/appium/mooktest/mooktest/mooktest.py" />
+        <option value="$PROJECT_DIR$/appium/HttpApi/testGetAndPost.py" />
+        <option value="$PROJECT_DIR$/maiyang/test.py" />
+        <option value="$PROJECT_DIR$/maiyang/PerformenceTest/power.py" />
         <option value="$PROJECT_DIR$/appium/py.py" />
-        <option value="$PROJECT_DIR$/appium/taobao.py" />
+        <option value="$PROJECT_DIR$/appium/NativeApp/NativeScript.py" />
+        <option value="$PROJECT_DIR$/appium/mooktest/mytestrunner.py" />
+        <option value="$PROJECT_DIR$/maiyang/FunctionTest/test.py" />
+        <option value="$PROJECT_DIR$/socket/server.py" />
+        <option value="$PROJECT_DIR$/socket/client.py" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/__init__.py" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/templates/learning_logs/index.html" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/templates/learning_logs/base.html" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/templates/learning_logs/topic.html" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/templates/learning_logs/topics.html" />
+        <option value="$PROJECT_DIR$/LearningLog/LearningLog/__init__.py" />
+        <option value="$PROJECT_DIR$/LearningLog/manage.py" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/admin.py" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/forms.py" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/learning_logs/new_entry.html" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/learning_logs/edit_entry.html" />
+        <option value="$PROJECT_DIR$/LearningLog/LearningLog/urls.py" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/users/register.html" />
+        <option value="$PROJECT_DIR$/LearningLog/users/views.py" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/models.py" />
+        <option value="$PROJECT_DIR$/LearningLog/LearningLog/settings.py" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/learning_logs/index.html" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/users/login.html" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/learning_logs/new_topic.html" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/learning_logs/topics.html" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/learning_logs/topic.html" />
+        <option value="$PROJECT_DIR$/LearningLog/users/urls.py" />
+        <option value="$PROJECT_DIR$/LearningLog/templates/learning_logs/base.html" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/urls.py" />
+        <option value="$PROJECT_DIR$/LearningLog/learning_logs/views.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -155,6 +500,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,27 +511,74 @@
             <path>
               <item name="PythonProgram" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonProgram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="LearningLog" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/IO+spectrum项目材料/IO+spectrum项目材料/IO+spectrum实验代码" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LearningLog/users" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Python_workspace\PythonProgram" />
+      <recent name="E:\Python_workspace\PythonProgram\LearningLog\users" />
+      <recent name="E:\Python_workspace\PythonProgram\LearningLog\templates\learning_logs" />
+      <recent name="E:\Python_workspace\PythonProgram\maiyang\PerformenceTest" />
+      <recent name="E:\Python_workspace\PythonProgram\maiyang\launchTime" />
+      <recent name="E:\Python_workspace\PythonProgram\appium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Python_workspace\PythonProgram\LearningLog" />
+      <recent name="E:\Python_workspace\PythonProgram\LearningLog\learning_logs" />
+      <recent name="E:\Python_workspace\PythonProgram\maiyang\FunctionTest" />
+      <recent name="E:\Python_workspace\PythonProgram" />
       <recent name="E:\Python_workspace\PythonProgram\appium" />
     </key>
   </component>
@@ -201,8 +594,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.taobao">
-    <configuration name="gd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProgram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,12 +603,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HW1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningLog/learning_logs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HW1/gd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningLog/learning_logs/admin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +617,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProgram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,12 +625,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium/py.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socket/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +639,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProgram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,12 +647,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningLog" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Python_workspace\PythonProgram\appium\py.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningLog/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonProgram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LearningLog/learning_logs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LearningLog/learning_logs/models.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +683,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="py1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonProgram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,34 +691,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/socket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium/py1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="taobao" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonProgram" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/appium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/appium/taobao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/socket/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,19 +706,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.py" />
-      <item itemvalue="Python.py1" />
-      <item itemvalue="Python.py (1)" />
-      <item itemvalue="Python.gd" />
-      <item itemvalue="Python.taobao" />
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.client" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.admin" />
+      <item itemvalue="Python.models" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.taobao" />
-        <item itemvalue="Python.py (1)" />
-        <item itemvalue="Python.py1" />
-        <item itemvalue="Python.gd" />
-        <item itemvalue="Python.py" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.models" />
+        <item itemvalue="Python.admin" />
+        <item itemvalue="Python.client" />
+        <item itemvalue="Python.server" />
       </list>
     </recent_temporary>
   </component>
@@ -339,197 +732,485 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554800978771</updated>
+      <workItem from="1558493195639" duration="2886000" />
+      <workItem from="1558589185091" duration="614000" />
+      <workItem from="1558663534501" duration="13468000" />
+      <workItem from="1558883643897" duration="17121000" />
+      <workItem from="1559131508038" duration="5833000" />
+      <workItem from="1559304393211" duration="10933000" />
+      <workItem from="1559443098333" duration="2545000" />
+      <workItem from="1559540782275" duration="770000" />
+      <workItem from="1560086855522" duration="24630000" />
+      <workItem from="1560224916820" duration="7736000" />
+      <workItem from="1560346140924" duration="13000" />
+      <workItem from="1562639383254" duration="599000" />
+      <workItem from="1563773028416" duration="1480000" />
+      <workItem from="1563944327716" duration="17000" />
+      <workItem from="1564462515096" duration="2182000" />
+      <workItem from="1564659981847" duration="2911000" />
+      <workItem from="1564667944823" duration="6035000" />
+      <workItem from="1565055798567" duration="29509000" />
+      <workItem from="1565333851043" duration="12620000" />
+      <workItem from="1565500000397" duration="18403000" />
     </task>
+    <task id="LOCAL-00001" summary="淘宝测试">
+      <created>1557294581392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557294581392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_py - 2019.06.10 at 21h 48m 43s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_MyTestCase - 2019.06.10 at 21h 49m 11s.xml">
+      <configuration name="Unittests for test.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_MyTestCase - 2019.06.10 at 21h 49m 53s.xml">
+      <configuration name="Unittests for test.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_MyTestCase - 2019.06.10 at 22h 00m 55s.xml">
+      <configuration name="Unittests for test.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_MyTestCase - 2019.06.10 at 22h 02m 40s.xml">
+      <configuration name="Unittests for test.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_MyTestCase - 2019.06.10 at 22h 18m 53s.xml">
+      <configuration name="Unittests for test.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_MyTestCase - 2019.06.10 at 22h 20m 51s.xml">
+      <configuration name="Unittests for test.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.10 at 22h 23m 52s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.11 at 14h 11m 09s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2019.06.11 at 14h 12m 01s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="160665000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2727882" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49686846" visible="true" weight="0.29289544" />
+      <window_info id="Structure" order="1" sideWeight="0.5031315" side_tool="true" weight="0.24932976" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.2141844" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.32152975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32152975" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3186969" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="淘宝测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="淘宝测试" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PythonProgram$Unittests_for_testGetAndPost_testClass_testGet.coverage" NAME="Unittests for testGetAndPost.testClass.testGet Coverage Results" MODIFIED="1560090242814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium/HttpApi" />
+    <SUITE FILE_PATH="coverage/PythonProgram$py.coverage" NAME="py Coverage Results" MODIFIED="1560150449598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium" />
+    <SUITE FILE_PATH="coverage/PythonProgram$test.coverage" NAME="test Coverage Results" MODIFIED="1560234098325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/FunctionTest" />
+    <SUITE FILE_PATH="coverage/PythonProgram$client.coverage" NAME="client Coverage Results" MODIFIED="1563773453763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/PythonProgram$gifTopng.coverage" NAME="gifTopng Coverage Results" MODIFIED="1558937993525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProgram$Unittests_for_NativeScript_MyTestCase.coverage" NAME="Unittests for NativeScript.MyTestCase Coverage Results" MODIFIED="1560171684176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium/NativeApp" />
+    <SUITE FILE_PATH="coverage/PythonProgram$manage.coverage" NAME="manage Coverage Results" MODIFIED="1565511237649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearningLog" />
+    <SUITE FILE_PATH="coverage/PythonProgram$imageToVideo.coverage" NAME="imageToVideo Coverage Results" MODIFIED="1558945762502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProgram$post.coverage" NAME="post Coverage Results" MODIFIED="1558668044365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/PythonProgram$get.coverage" NAME="get Coverage Results" MODIFIED="1558685436129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
+    <SUITE FILE_PATH="coverage/PythonProgram$power.coverage" NAME="power Coverage Results" MODIFIED="1559357685108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/PerformenceTest" />
+    <SUITE FILE_PATH="coverage/PythonProgram$server.coverage" NAME="server Coverage Results" MODIFIED="1563773237322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
+    <SUITE FILE_PATH="coverage/PythonProgram$Unittests_for_test_MyTestCase_test_something.coverage" NAME="Unittests for test.MyTestCase.test_something Coverage Results" MODIFIED="1560149247957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/FunctionTest" />
+    <SUITE FILE_PATH="coverage/PythonProgram$models.coverage" NAME="models Coverage Results" MODIFIED="1565264797264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearningLog/learning_logs" />
+    <SUITE FILE_PATH="coverage/PythonProgram$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1560233526358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/FunctionTest" />
+    <SUITE FILE_PATH="coverage/PythonProgram$launchTime.coverage" NAME="launchTime Coverage Results" MODIFIED="1559309018987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/launchTime" />
+    <SUITE FILE_PATH="coverage/PythonProgram$Unittests_for_test_MyTestCase.coverage" NAME="Unittests for test.MyTestCase Coverage Results" MODIFIED="1560176428990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/FunctionTest" />
+    <SUITE FILE_PATH="coverage/PythonProgram$admin.coverage" NAME="admin Coverage Results" MODIFIED="1564667433209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LearningLog/learning_logs" />
+    <SUITE FILE_PATH="coverage/PythonProgram$cpustatus.coverage" NAME="cpustatus Coverage Results" MODIFIED="1559354563680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/launchTime" />
+    <SUITE FILE_PATH="coverage/PythonProgram$traffic.coverage" NAME="traffic Coverage Results" MODIFIED="1559356956192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/maiyang/launchTime" />
+    <SUITE FILE_PATH="coverage/PythonProgram$launchTime__1_.coverage" NAME="launchTime (1) Coverage Results" MODIFIED="1559308167872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium/launchTime" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/操作.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output.txt">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-920">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="151">
+          <caret line="296" column="12" selection-start-line="296" selection-start-column="12" selection-end-line="296" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ascii_dora.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/appium/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/urllib3/connection.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="151">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        <state relative-caret-position="151">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/appium/webdriver/webdriver.py">
+    <entry file="file://$PROJECT_DIR$/appium/mooktest/ddttest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageToChar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/numpy/linalg/linalg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="467" column="4" selection-start-line="467" selection-start-column="4" selection-end-line="467" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/figures/Compare.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/data/ans.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/figures/TrainProcess.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/urllib3/util/retry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="387" selection-start-line="387" selection-end-line="387" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/data/test.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/data/sampleSubmission.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-756" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/result/predict.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/data/train.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-42041">
-          <caret column="8" selection-start-column="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW1/gd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1628">
-          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+        <state relative-caret-position="119">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium/py1.py">
+    <entry file="file://$PROJECT_DIR$/appium/mooktest/mytestrunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/urllib3/util/connection.py">
+    <entry file="file://$PROJECT_DIR$/appium/NativeApp/NativeScript.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="51">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#34#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appium/HttpApi/testGetAndPost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appium/py.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="24" column="67" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appium/taobao.py">
+    <entry file="file://$PROJECT_DIR$/appium/mooktest/unittestdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="16" />
           <folding>
-            <element signature="e#16#44#0" expanded="true" />
+            <element signature="e#34#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maiyang/FunctionTest/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/db/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="398" column="6" selection-start-line="398" selection-start-column="6" selection-end-line="398" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/urls/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/template/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/db/backends/mysql/operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/LearningLog/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/LearningLog/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/template/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="662" selection-start-line="662" selection-end-line="662" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/new_entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/users/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/users/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/users/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/LearningLog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/users/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1634">
+          <caret line="442" column="8" selection-start-line="442" selection-start-column="8" selection-end-line="442" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="56" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="56" />
+          <folding>
+            <element signature="e#25#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/LearningLog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/users/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/new_topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="e#43#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/edit_entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/topics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/templates/learning_logs/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#23#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningLog/learning_logs/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+          <folding>
+            <element signature="e#23#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
