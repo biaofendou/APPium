@@ -2,8 +2,10 @@
 <<<<<<< HEAD
 
 =======
-data/
+/data
 >>>>>>> 4803679a1b6b9adbad77949f9449f1b1fbce0d6d
 .avi
 video/
-.gif
+*.gif
+/image
+/bmp
